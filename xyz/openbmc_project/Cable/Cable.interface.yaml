@@ -1,1 +1,45 @@
 
+description: >
+   Implement to provide USI Cable infomation.
+   
+properties:
+    - name: CableType
+      type: uint32
+      description: >
+            Cable interface type
+    - name: SlotAddr
+      type: uint32
+      description: >
+            Cable slot address
+    - name: Present
+      type: uint32
+      description: >
+            Cable status
+    - name: LinkSpeed
+      type: uint32
+      description: >
+            Cable link speed
+    - name: LinkWidth
+      type: uint32
+      description: >
+            Cable negotiated link width
+    - name: LinkActive
+      type: uint32
+      description: >
+            Cable link up status
+    - name: PartitionID
+      type: uint32
+      description: >
+            Cable width
+    - name: Invalid
+      type: uint32
+      description: >
+            Cable present status
+    - name: UspDsp
+      type: uint32
+      description: >
+            UspDsp
+    - name: Status
+      type: uint32
+      description: >
+            Status of the partition
